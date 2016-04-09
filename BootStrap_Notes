@@ -1,0 +1,51 @@
+Summary:
+--------
+
+Bootstrap 3 Grid system is 12 column layout.
+Bootstrap grid layouts are avialable for different types of devices like 
+	Extra smalle devices (like cell phones <768px)	class prefix = .col-xs-    ; Grid behavior = 'horizontal at all times'
+	Small devices (Tables >= 768px)					class prefix = .col-sm-	   ; Collapsed to start, horizontal above breakpoints
+	Medium devices (Desktops >=992px)				class prefix = .col-md-	   ; Collapsed to start, horizontal above breakpoints
+	Large devices (Desktops >=1200px)				class prefix = .col-lg-    ; Collapsed to start, horizontal above breakpoints
+
+
+Since bootstrap grid system is based on 12 columns, so to keep the columns in a one line (i.e. side by side), the sum of the grid column numbers in each row should be equal to 12.
+
+e.g; The below example creates a container with a row containing 3 column grids.
+
+<div class="container">
+    <!--Row with three equal columns-->
+    <div class="row">
+        <div class="col-md-4"><!--Column left--></div>
+        <div class="col-md-4"><!--Column middle--></div>
+        <div class="col-md-4"><!--Column right--></div>
+    </div>
+</div>
+
+class ="clear-fix visible-md-block" is used to fix alignment issues in case of one column having height more than other. The responsive utility class .visible-md-block makes the .Clearfix class effective only on medium size devices and it is hidden on other devices.
+
+
+BootStrap Responsive Utilities classes:
+---------------------------------------
+You can use the following responsive classes to enable the visibility of elements on certain devices that screen size falls with the specific range.
+
+.visible-xs-*  : makes the element visible only on extra small devices having screen less than 768px.
+.visible-sm-*  : display only on small devices.
+.visible-md-*
+.visible-lg-*
+
+You can also mix the above classes to make the elements visible on multiple devices. For e.g. you can apply the class .visible-xs-* and .visible-md-* on any element to make it visible on extra small and medium devices.
+
+
+.hidden-xs : use to hide an element on exta small devices. Similar class can be used to hide elements on medium, large devices.
+
+Some other interesting classes as follows:
+-------------------------------------------
+
+.visible-print-block : Hide block elements for browser rendering while visible for print.
+
+.visible-print-inline : Hide inline elements for browser rendering while visible for print.
+
+.visible-print-inline-block : Hide inline-block elements for browser rendering while visible for print.
+
+.hidden-print : Hide elements for printing while visible on browser.

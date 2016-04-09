@@ -1,0 +1,89 @@
+<div class = "group">
+	<div class="list-group">
+	    <a href="#" class="list-group-item active">
+	    	<span class="glyphicon glyphicon-camera"></span>
+	    	Pictures
+	        <span class="badge">25</span>
+	    </a>
+	    <a href="#" class="list-group-item">
+	    	<span class="glyphicon glyphicon-file"></span>
+	    	Documents
+	    	<span class="badge">12</span>
+	    </a>
+	    <a href="#" class="list-group-item">
+	    	<span class="glyphicon glyphicon-music"></span>
+	    	Music
+	    	<span class="badge">50</span>
+	    </a>
+	    <a href="#" class="list-group-item">
+	    	<span class="glyphicon glyphicon-video"></span>
+	    	Videos
+	    	<span class="badge">8</span>
+	    </a>
+	</div>
+</div>
+	<div class="table-responsive">
+	<table class="table table-bordered table-hover table-striped">
+		<thead>
+			<th>Row#</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Email</th>
+		</thead>
+		<tbody>
+			<tr class ="active">
+				<td>1</td>
+				<td>Karthik</td>
+				<td>Chittiprolu</td>
+				<td>kchittiprolu@gmail.com</td>
+			</tr>
+			<tr class ="success">
+				<td>2</td>
+				<td>Rehman</td>
+				<td>Syed</td>
+				<td>Rahi.yuvi@gmail.com</td>
+			</tr>
+			<tr class ="info">
+				<td>3</td>
+				<td>Anusha</td>
+				<td>Boddu</td>
+				<td>b.anusha27@gmail.com</td>
+			</tr>
+			<tr class ="danger">
+				<td>4</td>
+				<td>Gurunadh</td>
+				<td>Garine</td>
+				<td>guru.garine@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	<p class ="visible-xs-block visible-lg-block">Only seen on large and  extra small screens</p>
+	<p class = "hidden-xs"> Hidden on extra small devices</p>
+	<p class ="visible-print-block"> Visible only when print </p>
+	<p class = "hidden-print">This will not print</p>
+	<div class = "container">
+		<div class="row">
+			<div class="col-sm-6 col-md-4"><p>Box 1</p></div>
+			<div class="col-sm-6 col-md-4"><p>Box 2</p></div>
+			<div class="clearfix visible-sm-block"></div>
+			<div class="col-sm-6 col-md-4"><p>Box 3</p></div>
+			<div class="clearfix visible-md-block"></div>
+			<div class="col-sm-6 col-md-4"><p>Box 4</p></div>
+			<div class="clearfix visible-sm-block"></div>
+			<div class="col-sm-6 col-md-4"><p>Box 5</p></div>
+			<div class="col-sm-6 col-md-4"><p>Box 6</p></div>
+			<div class="clearfix visible-sm-block"></div>
+			<div class="clearfix visible-md-block"></div>
+			<div class="col-sm-6 col-md-4"><p>Box 7</p></div>
+			<div class="col-sm-6 col-md-4"><p>Box 8</p></div>
+			<div class="clearfix visible-sm-block"></div>
+			<div class="col-sm-6 col-md-4"><p>Box 9</p></div>
+			<div class="clearfix visible-md-block"></div>
+			<div class="col-sm-6 col-md-4"><p>Box 10</p></div>
+			<div class="clearfix visible-sm-block"></div>
+			<div class="col-sm-6 col-md-4"><p>Box 11</p></div>
+			<div class="col-sm-6 col-md-4"><p>Box 12</p></div>
+			</div>
+		</div>
+	</div>
