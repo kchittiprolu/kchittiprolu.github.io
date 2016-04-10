@@ -88,7 +88,7 @@ section {
 }
 
 section#Home{
-	height:100vh;
+	height:100%;
   color: #fff;
 	background: url("./img/background1.jpg");
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ div#aboutMeDiv{
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     section#Home{
   color: #fff;
   background: url("./img/background1.jpg") content;
@@ -137,12 +137,12 @@ div#aboutMeDiv{
 
 
 section#Projects {
-	height:200vh;
+	height:100%;
     color: #fff;
     background: #272727;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
 section#Projects {
   height:100%;
     color: #fff;
@@ -161,7 +161,7 @@ section#blog {
 }
 
 section#Contact {
-	height:100vh;
+	height:100%;
     color: #fff;
     background: #C7C7C7;
 }
