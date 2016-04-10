@@ -88,7 +88,7 @@ section {
 }
 
 section#Home{
-	height:100%;
+	height:100vh;
   color: #fff;
 	background: url("./img/background1.jpg");
   background-repeat: no-repeat;
@@ -112,8 +112,8 @@ div#aboutMeDiv{
 }
 
 
-@media only screen and (max-width: 700px) {
-    section#Home{
+@media only screen and (max-width: 960px) {
+  section#Home{
   color: #fff;
   background: url("./img/background1.jpg") content;
   background-repeat: no-repeat;
@@ -121,17 +121,16 @@ div#aboutMeDiv{
 }
   div#aboutMeDiv
   {
-  background:   #5A3300;
+  background: #5A3300;
   color: #ffffff;
   opacity: 0.70;
   border-radius: 20px;
-  height:auto;
-  margin: 10px 0px 10px 0px;
-  width: 100%;
+  margin:0px;
+  width: auto;
   }
   .my-intro-text{
   padding: 25px 15px 25px 15px;
-  font-size: 5vw;
+  /*font-size: 5vw;*/
 }
     }
 
@@ -150,10 +149,6 @@ section#Projects {
 }
   }
 
-.other-color {
-background: green;
-}
-
 section#blog {
 	height:100vh;
     color: #fff;
@@ -161,12 +156,12 @@ section#blog {
 }
 
 section#Contact {
-	height:100%;
+	height:100vh;
     color: #fff;
     background: #C7C7C7;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
 section#Contact {
   height:100%;
     color: #fff;
