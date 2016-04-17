@@ -1,13 +1,7 @@
 body
 {
-/*	padding-top: 50px;*/
 	overflow-x: hidden;
 }
-
-/*.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}*/
 
 p {
     font-size: 20px;
@@ -16,6 +10,12 @@ p {
 p.small {
     font-size: 16px;
 }
+
+  .headText{
+    color: #AA9A66;
+    text-align: center;
+    margin-top: 0px;
+  }
 
 a,
 a:hover,
@@ -33,8 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar-brand{
-  opacity: 0.75;
-  text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+  color: #AA9A66 !important;
 }
 
 .navbar-brand:hover{
@@ -52,23 +51,6 @@ header .container {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
-/*header img {
-	height:520px;
-	width:376px;
-	margin:4% auto 0;
-	text-shadow:0 -1px 0 #444;
-	position:relative;
-	border-radius: 15px;
-   -moz-transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  -moz-transition: -moz-transform 1.6s;
-  -webkit-transition: -webkit-transform 1.6s;
-  -moz-perspective: 500;
-  -webkit-perspective: 500;
-     display: block;
-  margin: 0 auto 20px;
-}*/
 
 header .intro-text .name {
     display: block;
@@ -130,22 +112,29 @@ div#aboutMeDiv{
   }
   .my-intro-text{
   padding: 25px 15px 25px 15px;
-  /*font-size: 5vw;*/
+}
+
+.icon-bar {
+  background-color: #AA9A66 !important;
 }
     }
 
 
 section#Projects {
 	height:100%;
-    color: #fff;
-    background: #272727;
+  color: #fff;
+  background: #272727;
+  border-top: solid;
+    border-color: #AA9A66;
 }
 
 @media only screen and (max-width: 700px) {
 section#Projects {
   height:100%;
-    color: #fff;
-    background: #272727;
+  color: #fff;
+  background: #272727;
+  border-top: solid;
+    border-color: #AA9A66;
 }
   }
 
@@ -157,29 +146,35 @@ section#blog {
 
 section#Contact {
 	height:100vh;
-    color: #fff;
-    background: #C7C7C7;
+  color: #fff;
+  background: #272727;
+  border-top: solid;
+  border-color: #AA9A66;
 }
 
-@media only screen and (max-width: 700px) {
+.qrCode{
+  padding-top:20px;
+}
+
+.contactDiv{
+  padding-top:20px;
+}
+
+@media only screen and (max-width: 768px) {
 section#Contact {
-  height:100%;
+    height:100%;
     color: #fff;
-    background: #C7C7C7;
+    background: #272727;
+    border-top: solid;
+    border-color: #AA9A66;
 }
   }
 
-/*#Home .container .row{
-	margin-top: 120px;
-}*/
 
-
-#Home .imagediv{
-	float: left;
-  width: 123px;
-  height: 122px;
+#Projects .container-fluid{
+  margin-left: -20px;
+  padding-left: 0px;
 }
-
 
 #Projects .jumbotron
 {
@@ -201,54 +196,6 @@ section#Contact {
    list-style-type: none;
 }
 
-#Projects .row{
-	margin-bottom: 25px;
-}
-
-#Projects .card{
-		border-radius: 25px;
-		margin-top: 10px;
-        min-height: 250px;
-        min-width: 80px;
-        background: #BBD97E;
-}
-
-#Projects .card .title{
-    font-size: 23px;
-    font-family: Calibri, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-style: italic;
-    text-align: center;
-    background-color: #3C3C3C;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-}
-
-#Projects .card .img-thumbnail{
-	height: 200px;
-	width: 300px;
-	margin-left: 30px;
-}
-
-#Projects .card h4{
-	text-align: center;
-	padding-top: 50px;
-}
-
-#Contact .container .row .my-contact-text{
-	font-weight: 700;
-	color:#3C3C3C;
-}
-
-#Contact .container .row{
-	margin-left: 150px;
-	margin-top: 120px;
-}
-
-#Contact .container .row .qrCode .img-rounded{
-	height: 200px;
-	width: 200px;
-	float: right;
-}
 
 #Contact .social img{
 	 opacity: 0.75;
@@ -262,14 +209,6 @@ section#Contact {
 	opacity:1;
 }
 
-#Projects .container .row a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-    color: #18bc9c;
-}
 
 .collapse .navbar-collapse a:hover, a:focus,a:active,a.active{
 	color: orange;

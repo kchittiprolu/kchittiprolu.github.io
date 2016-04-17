@@ -39,13 +39,13 @@
 	<link href="index.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<!-- Optional Bootstrap theme -->
+	Optional Bootstrap theme -->
     <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
 
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
     </script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -55,16 +55,16 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
 <div class="container-fluid">
 	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand" href="#"><span class="label label-danger">K</span></h3>arthik</a>
+		<a class="navbar-brand" href="#Home"><span class="label label-danger">K</span>arthik</a>
 	</div>
-	<div class="collapse navbar-collapse" id="myNavbar">
+	<div class="navbar-collapse collapse" id="myNavbar">
 	<ul class="nav navbar-nav navbar-right">
-		<li class="active"><a href="#">Home</a></li>
+		<li class="active"><a href="#Home">Home</a></li>
 		<li><a href="#Projects">Projects</a></li>
 		<li><a href="#Contact">Contact</a></li>
 	</ul>
@@ -73,9 +73,6 @@
 </nav>
  <section id="Home">
  <div class="container-fluid" id="aboutMeDiv">
-    	<!--<div class="imagediv col-md-6 text-center">
-		<img  src="img/profile.png" class="img-circle" alt="Image circle">
-		</div>-->
 		   <p class="my-intro-text">Hi, I'm Karthik Chittiprolu. 
 I am a passionate software developer with a Masters degree in Computer Science from University of Houston. Yay GoCoogs !!<br/> My areas of interest are in Programming, Application Development, Web development and UI designing. I am more inclined towards Agile and Test Driven Development practices these days. This website is a showcase of my hobby projects or my sample works. I am much interested in sharing my knowledge and findings in programming with other programmers on the web. Thanks for visiting my website :)
 		   </p>
@@ -83,153 +80,127 @@ I am a passionate software developer with a Masters degree in Computer Science f
 </section>
 
 <section id="Projects">
+		<h2 class="headText text-capitalize">My Projects</h2>
         <div class="container-fluid">
-           <!--<div class="row">
-               <div class="col-lg-12 text-center">
-                    <h2>My Projects</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>-->
-           <!--<div class="row">
-			<div class="col-sm-6 col-md-4">
-			<a href="https://github.com/chkarthik502/MineSweeper" target=_blank>
-			<div class="card">
-				<p class="title">Minesweeper Game</p>
-				<img src="img/MineSweeper.png" class="img-thumbnail" alt="Minesweeper Game project image">
-			</div></a>
-			</div>
-			<div class="col-sm-6 col-md-4">
-			<a href="https://github.com/chkarthik502/Text-Format-Application" target=_blank>
-			<div class="card">
-				<p class="title">Text Format App</p>
-				<img src="img/Text-Format-Application.png" class="img-thumbnail" alt="TextFormat App">
-			</div></a>
-			</div>
-			<div class="clearfix visible-sm-block"></div>
-			<div class="col-sm-6 col-md-4">
-			<div class="card">
-				<p class="title">Spied 2D Game</p>
-				<img src="img/spied_game.png" class="img-thumbnail" alt="Spied 2D Game">
-			</div>
-			</div>
-			<div class="clearfix visible-md-block"></div>
-			<div class="col-sm-6 col-md-4"><div class="card"><p class="title">Higher-Lower Android App</p></div></div>
-			<div class="clearfix visible-sm-block"></div>
-			<div class="col-sm-6 col-md-4">
-			<div class="card">
-				<p class="title">EXCEL to XML</p>
-				<img src="img/excel_to_xml_generator.PNG" class="img-thumbnail" alt="EXCEL to XML Geneartor">
-			</div>
-			</div>
-			<div class="col-sm-6 col-md-4">
-			<div class="card">
-				<p class="title">Project#  6</p>
-				<h4>Coming Soon...</h4>
-			</div>
-			</div>
-		   </div>-->
 		   <ul>
 		   	<li>
 		   	<a href="#minesweeper" class="toggle btn btn-primary">Minesweeper</a>
 		   	<div class="jumbotron" id="minesweeper">
-		   	<h3>Minesweeper Game</h3>
+		   	<h3 class="text-capitalize">Minesweeper Game</h3>
 		   	<div class="label label-success">.NET</div>
 		   	<div class="label label-success">C#</div>
 		   	<div class="label label-success">TDD</div>
 		   	<p>Minesweeper is a windows game developed using C#.NET. This is a purely Test Driven Devloped application.
 		   	NUnit framework has been used a Unit testing framework. Ncover has been used in this project to track test coverage. </p>
+		   	<a href="https://github.com/kchittiprolu/MineSweeper" target="_new"><b>Source code</b></a>
 		   	</div>
 		   	</li>
 
 		    <li>
 		    <a href="#showweathernow" class="toggle btn btn-primary">ShowWeatherNow App</a>
 		   	<div class="jumbotron" id="showweathernow">
-		   	<h3>ShowWeatherNow App</h3>
+		   	<h3 class="text-capitalize">ShowWeatherNow Mobile App</h3>
 		   	<div class="label label-success">jQuery Mobile</div>
 		   	<div class="label label-success">HTML5</div>
 		   	<div class="label label-success">CSS3</div>
 		   	<div class="label label-success">PhoneGap</div>
 		   	<p>ShowWeatherNow App is a cross-platform hybrid app developed taking advantage of jQuery Mobile framework. This app has been converted to a native android app using Adobe's Phonegap. ShowWeatherNow app comes with features like current location, current temperature, hourly weather for next 24 hours, settings that include fahrenheit to celcius and vice versa. This app has a gear recommendation feature that recommends if you need a winter jacket, umbrella, shades or gloves based on the weather conditions for next few hours. Alternatively you can ask the app to show you recommended gears for next 2 to 12 hours.</p>
+		   	<a href="https://github.com/kchittiprolu/ShowWeatherNow" target="_new"><b>Source code</b></a>
 		   	</div>
 		   	</li>
 
 		   <li>
 		    <a href="#textformatapp" class="toggle btn btn-primary">Text Format App</a>
 		   	<div class="jumbotron" id="textformatapp">
-		   	<h3>Text Format App</h3>
+		   	<h3 class="text-capitalize">Text Format App</h3>
 		   	<div class="label label-success">.NET</div>
 		   	<div class="label label-success">C#</div>
 		   	<div class="label label-success">TDD</div>
 		   	<p>Text format app is a windows form application developed to make developer's job easier especially when building sql queries. NUnit framework has been used for unit testing and Ncover is been used for tracking test coverage.</p>
+		   	<a href="https://github.com/kchittiprolu/TextFormat-App" target="_new"><b>Source code</b></a>
 		   	</div>
 		   </li>
 		   <li>
 		    <a href="#spiedgame" class="toggle btn btn-primary">Spied 2d Game</a>
 		   	<div class="jumbotron" id="spiedgame">
-		   	<h3>Spied 2d Game</h3>
+		   	<h3 class="text-capitalize">Spied 2d Game</h3>
 		   	<div class="label label-success">.NET</div>
 		   	<div class="label label-success">C#</div>
 		   	<div class="label label-success">XNA Framework</div>
 		   	<div class="label label-success">Photoshop</div>
 		   	<p>Spied is a 2d PC game developed using Microsoft's XNA framwork. All pictures are designed in Adobe's photoshop and motionized using with C# written program using XNA. This game has been developed with features like powerups, collision detection, time tracking, 3 levels with increasing difficulty and the most challenging enemy at the end of 3rd level.</p>
+		   	<a href="https://github.com/kchittiprolu/Spied-2d-PC-Game" target="_new"><b>Source code</b></a>
 		   	</div>
 		   </li>
 
 		   <li>
 		    <a href="#exceltoxml" class="toggle btn btn-primary">EXCEL to XML</a>
 		   	<div class="jumbotron" id="exceltoxml">
-		   	<h3>EXCEL to XML</h3>
+		   	<h3 class="text-capitalize">EXCEL to XML</h3>
 		   	<div class="label label-success">.NET</div>
 		   	<div class="label label-success">C#</div>
 		   	<div class="label label-success">XML</div>
 		   	<p>EXCEL to XML is a windows form tool developed few years ago to automate one of my daily job duties at work. This tool accepts any EXCEL format file and treat the header of the EXCEL file as XML tags and rest of the cells as content. There is potentially scope to extend the tool to include sub xml tags but the current tool will serve the basic purpose of converting EXCEL file to XML. </p>
 		   	</div>
+		    <!--<a href="https://github.com/kchittiprolu/MineSweeper" target="_new"><b>Source code</b></a>-->
 		   </li>
 		</ul>
         </div>
 </section>
 <section id="Contact">
-	<div class="container-fluid">
-	    <div class="row">
-	    	<div class="qrCode col-lg-4 text-center">
+	<h2 class="headText text-capitalize">My Contact</h2>
+	<div class="container-fluid " style="text-align: center">
+	    	<div class="qrCode">
 				<img src="img/qrcode.png" class="img-rounded" alt="QR Code thumbnail">
 			</div>
-			<div class="my-contact-text col-lg-8 pull-left">
+			<div class="contactDiv">
 			      <p>Karthik Chittiprolu <br/>
 			      United States<br/>
-			      Phone: 713-962-6442 <br/></p>
-			      Email:<a href="mailto:kchittiprolu@gmail.com" target="_top">kchittiprolu@gmail.com</a>
+			      +1 (713)-962-6442 <br/></p>
+			      <a href="mailto:kchittiprolu@gmail.com" target="_top">kchittiprolu@gmail.com</a>
 			      <div class="social">
-			      	<a href="https://www.linkedin.com/in/kchittiprolu" target=_blank><img src="img/linkedIn_logo.png" class="img-rounded" alt="linkedin link"></a>
+			      	<a href="https://www.linkedin.com/in/kchittiprolu" target="_blank"><img src="img/linkedIn_logo.png" class="img-rounded" alt="linkedin link"></a>
 			      	<a href="https://github.com/chkarthik502" target="_blank"><img src ="img/github_logo.png" class="img-rounded" alt="github link"></a>
 			      	<a href="https://bitbucket.org/chkarthik502" target="_blank"><img src ="img/bitbucket_logo.png" class="img-rounded" alt="bitbucket link"></a>
 			      </div>
 			</div>
-	    </div>
 	</div>
 
 
 </section>
-       <!-- Placed at the end of the document so the pages load faster -->
-       <!--<script src="bootstrap/js/jquery-2.2.2.min.js"></script>
+       <!-- 
+       Placed at the end of the document so the pages load faster
+       <script src="bootstrap/js/jquery-2.2.2.min.js"></script>
 
-       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-       <!-- bootstrap core javascript -->
-	   <!--<script type="text/javascript" scr="bootstrap/js/bootstrap.min.js"></script>-->
+       jQuery (necessary for Bootstrap's JavaScript plugins)
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       bootstrap core javascript
+	   <script type="text/javascript" scr="bootstrap/js/bootstrap.min.js"></script>
 
-	   <!-- Plugin JavaScript 
+	    Plugin JavaScript 
 	    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	    <script src="js/classie.js"></script>
 	    <script src="js/cbpAnimatedHeader.js"></script>
-	   <!-- Custom Theme JavaScript -->
-    	<!--<script src="js/freelancer.js"></script>-->
+	    Custom Theme JavaScript 
+    	<script src="js/freelancer.js"></script>
+    -->
 
     	<script src="bootstrap/js/jquery-2.2.2.min.js"></script>
     	<script src="bootstrap/js/bootstrap.min.js"></script>
     
 
     	<script type="text/javascript">
+		//Function to collapse opened navbar when user click anywhere on the website
+		$(document).click(function (event) {
+		    var clickover = $(event.target);
+		    var $navbar = $(".navbar-collapse");               
+		    var _opened = $navbar.hasClass("in");
+		    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+		        $navbar.collapse('hide');
+		    }
+		});
+
+		//Function for toggling on project buttons.
     	$(function () {
 		    $('.toggle').click(function (event) {
 		        event.preventDefault();
@@ -237,7 +208,11 @@ I am a passionate software developer with a Masters degree in Computer Science f
 		        $(target).toggleClass('show hidden');
 		    });
 		});
+
+    	
     	</script>
+
+
 
 	<!--jQuery and Bootstrap CDN
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
