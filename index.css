@@ -2,7 +2,7 @@ body
 {
 	overflow-x: hidden;
   font-family: 'Nunito', sans-serif;
-  font-size: 48px;
+  font-size: 14px;
 }
 
 p {
@@ -87,7 +87,7 @@ div#aboutMeDiv{
   height:auto;
   width: 50%;
   margin-left: 10px;
-  margin-top:200px;
+  margin-top:100px;
  
 }
 
