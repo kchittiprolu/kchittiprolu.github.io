@@ -19,7 +19,18 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
     <!-- favicons for different device sizes -->
-     <link rel="icon" type="image/png" href="img/favicon/favicon_preferred.ico" sizes="16x16">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicons/manifest.json">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
+
+
+
+    <!-- <link rel="icon" type="image/png" href="img/favicon/favicon_preferred.ico" sizes="16x16">-->
 
 	<!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -63,57 +74,116 @@ I am a passionate software developer with a Masters degree in Computer Science f
 </section>
 
 <section id="Projects">
+	<div class="container-fluid">
 		<h2 class="headText text-capitalize">My Projects</h2>
-        <div class="container-fluid">
-		   <ul>
-		   	<li>
-		   	<div class="jumbotron" id="minesweeper">
-		   	<h3 class="text-capitalize">Minesweeper Game <i class="fa fa-gamepad fa-lg"></i></h3>
-		   	<div class="label label-success">.NET</div>
-		   	<div class="label label-success">C#</div>
-		   	<div class="label label-success">TDD</div>
-		   	<p>Minesweeper is a windows game developed using C#.NET. This is a purely Test Driven Devloped application.
-		   	NUnit framework has been used a Unit testing framework. Ncover has been used in this project to track test coverage. </p>
-		   	<a href="https://github.com/kchittiprolu/MineSweeper" target="_new"><b>Source code</b></a>
-		   	</div>
-		   	</li>
-
-		    <li>
-		   	<div class="jumbotron" id="showweathernow">
-		   	<h3 class="text-capitalize">ShowWeatherNow Mobile App <i class="fa fa-mobile fa-lg"></i></h3>
-		   	<div class="label label-success">jQuery Mobile</div>
-		   	<div class="label label-success">HTML5</div>
-		   	<div class="label label-success">CSS3</div>
-		   	<div class="label label-success">PhoneGap</div>
-		   	<p>ShowWeatherNow App is a cross-platform hybrid app developed taking advantage of jQuery Mobile framework. This app has been converted to a native android app using Adobe's Phonegap. ShowWeatherNow app comes with features like current location, current temperature, hourly weather for next 24 hours, settings that include fahrenheit to celcius and vice versa. This app has a gear recommendation feature that recommends if you need a winter jacket, umbrella, shades or gloves based on the weather conditions for next few hours. Alternatively you can ask the app to show you recommended gears for next 2 to 12 hours.</p>
-		   	<a href="https://github.com/kchittiprolu/ShowWeatherNow" target="_new"><b>Source code</b></a>
-		   	</div>
-		   	</li>
-
-		   <li>
-		   	<div class="jumbotron" id="textformatapp">
-		   	<h3 class="text-capitalize">Text Format App <i class="fa fa-wrench fa-lg"></i></h3>
-		   	<div class="label label-success">.NET</div>
-		   	<div class="label label-success">C#</div>
-		   	<div class="label label-success">TDD</div>
-		   	<p>Text format app is a windows form application developed to make developer's job easier especially when building sql queries. NUnit framework has been used for unit testing and Ncover is been used for tracking test coverage.</p>
-		   	<a href="https://github.com/kchittiprolu/TextFormat-App" target="_new"><b>Source code</b></a>
-		   	</div>
-		   </li>
-		   <li>
-		   	<div class="jumbotron" id="spiedgame">
-		   	<h3 class="text-capitalize">Spied 2d Game <i class="fa fa-gamepad fa-lg"></i></h3>
-		   	<div class="label label-success">.NET</div>
-		   	<div class="label label-success">C#</div>
-		   	<div class="label label-success">XNA Framework</div>
-		   	<div class="label label-success">Photoshop</div>
-		   	<p>Spied is a 2d PC game developed using Microsoft's XNA framwork. All pictures are designed in Adobe's photoshop and motionized using with C# written program using XNA. This game has been developed with features like powerups, collision detection, time tracking, 3 levels with increasing difficulty and the most challenging enemy at the end of 3rd level.</p>
-		   	<a href="https://github.com/kchittiprolu/Spied-2d-PC-Game" target="_new"><b>Source code</b></a>
-		   	</div>
-		   </li>
-		</ul>
-        </div>
+		<div class="row">
+			<div class="col-md-4 project minesweeper">
+				<div class="well">
+	               <h4 class="project-title">Minesweeper <span><i class="fa fa-gamepad fa-lg"></i></span></h4>
+	               <div class="tags">
+		               <label class="label tag">.NET</label>
+				   	   <label class="label tag">C#</label>
+				   	   <label class="label tag">TDD</label>
+			   	   </div>
+			   	   <div class="project-description">Minesweeper is a windows game developed using C#.NET. This is a purely Test Driven Devloped application. NUnit framework has been used a Unit testing framework. Ncover has been used in this project to track test coverage.
+			   	   </div>
+			   	   <div class="bottom-section">
+				   	   	<div class="btn">Read More</div>
+				   	   	<div class="btn">View Code</div>
+			   	   </div>
+	            </div>
+			</div>
+			<div class="col-md-4 project showweathernow">
+				<div class="well">
+	               <h4 class="project-title">Weather App <span><i class="fa fa-mobile fa-lg"></i></span></h4>
+	               <div class="tags">
+			            <label class="label tag">jQuery Mobile</label>
+					   	<label class="label tag">HTML5</label>
+					   	<label class="label tag">CSS3</label>
+					   	<label class="label tag">PhoneGap</label>
+			   	   </div>
+			   	    <div class="project-description">ShowWeatherNow App is a cross-platform hybrid app developed taking advantage of jQuery Mobile framework. This app has been converted to a native android app using Adobe's Phonegap. ShowWeatherNow app comes with features like current location, current temperature, hourly weather for next 24 hours, settings that include fahrenheit to celcius and vice versa.
+			   	    </div>
+			   	     <div class="bottom-section">
+				   	   	<div class="btn">Read More</div>
+				   	   	<div class="btn">View Code</div>
+			   	   </div>
+	            </div>
+	            </div>
+			<div class="col-md-4 project spiedpcgame">
+				<div class="well">
+	               <h4 class="project-title">Spied PC Game <span><i class="fa fa-gamepad fa-lg"></i></span></h4>
+	               <div class="tags">
+		               	<label class="label tag">.NET</label>
+					   	<label class="label tag">C#</label>
+					   	<label class="label tag">XNA Framework</label>
+					   	<label class="label tag">Photoshop</label>
+			   	   </div>
+			   	    <div class="project-description">Spied is a 2d PC game developed using Microsoft's XNA framwork. All pictures are designed in Adobe's photoshop and motionized using with C# written program using XNA. This game has been developed with features like powerups, collision detection, time tracking, 3 levels with increasing difficulty and the most challenging enemy at the end of 3rd level.
+			   	    </div>
+			   	     <div class="bottom-section">
+				   	   	<div class="btn">Read More</div>
+				   	   	<div class="btn">View Code</div>
+			   	   </div>
+	            </div>
+	        </div>
+		</div>
+	<!--	<div class="row">
+			<div class="col-md-4 project spiedpcgame">
+				<div class="well">
+	               <h4 class="project-title">Spied PC Game <span><i class="fa fa-gamepad fa-lg"></i></span></h4>
+	               <div class="tags">
+		               	<label class="label tag">.NET</label>
+					   	<label class="label tag">C#</label>
+					   	<label class="label tag">XNA Framework</label>
+					   	<label class="label tag">Photoshop</label>
+			   	   </div>
+			   	    <div class="project-description">Spied is a 2d PC game developed using Microsoft's XNA framwork. All pictures are designed in Adobe's photoshop and motionized using with C# written program using XNA. This game has been developed with features like powerups, collision detection, time tracking, 3 levels with increasing difficulty and the most challenging enemy at the end of 3rd level.
+			   	    </div>
+			   	     <div class="bottom-section">
+				   	   	<div class="btn">Read More</div>
+				   	   	<div class="btn">View Code</div>
+			   	   </div>
+	            </div>
+	        </div>
+	        			<div class="col-md-4 project spiedpcgame">
+				<div class="well">
+	               <h4 class="project-title">Spied PC Game <span><i class="fa fa-gamepad fa-lg"></i></span></h4>
+	               <div class="tags">
+		               	<label class="label tag">.NET</label>
+					   	<label class="label tag">C#</label>
+					   	<label class="label tag">XNA Framework</label>
+					   	<label class="label tag">Photoshop</label>
+			   	   </div>
+			   	    <div class="project-description">Spied is a 2d PC game developed using Microsoft's XNA framwork. All pictures are designed in Adobe's photoshop and motionized using with C# written program using XNA. This game has been developed with features like powerups, collision detection, time tracking, 3 levels with increasing difficulty and the most challenging enemy at the end of 3rd level.
+			   	    </div>
+			   	     <div class="bottom-section">
+				   	   	<div class="btn">Read More</div>
+				   	   	<div class="btn">View Code</div>
+			   	   </div>
+	            </div>
+	        </div>
+	        			<div class="col-md-4 project spiedpcgame">
+				<div class="well">
+	               <h4 class="project-title">Spied PC Game <span><i class="fa fa-gamepad fa-lg"></i></span></h4>
+	               <div class="tags">
+		               	<label class="label tag">.NET</label>
+					   	<label class="label tag">C#</label>
+					   	<label class="label tag">XNA Framework</label>
+					   	<label class="label tag">Photoshop</label>
+			   	   </div>
+			   	    <div class="project-description">Spied is a 2d PC game developed using Microsoft's XNA framwork. All pictures are designed in Adobe's photoshop and motionized using with C# written program using XNA. This game has been developed with features like powerups, collision detection, time tracking, 3 levels with increasing difficulty and the most challenging enemy at the end of 3rd level.
+			   	    </div>
+			   	     <div class="bottom-section">
+				   	   	<div class="btn">Read More</div>
+				   	   	<div class="btn">View Code</div>
+			   	   </div>
+	            </div>
+	        </div>
+		</div>-->
+	</div>
 </section>
+
 <section id="Contact">
 	<h2 class="headText text-capitalize">My Contact</h2>
 	<div class="container-fluid " style="text-align: center">
@@ -132,6 +202,7 @@ I am a passionate software developer with a Masters degree in Computer Science f
 			</div>
 	</div>
 </section>
+
     	<script src="bootstrap/js/jquery-2.2.2.min.js"></script>
     	<script src="bootstrap/js/bootstrap.min.js"></script>
     	<script type="text/javascript">

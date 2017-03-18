@@ -16,8 +16,73 @@ p.small {
   .headText{
     color: #AA9A66;
     text-align: center;
-    margin-top: 0px;
+    margin: 20px 0px;
   }
+
+ section#NewProjects {
+  height:100%;
+  color: #fff;
+  /*background: #272727;*/
+  border-top: solid;
+  border-color: #AA9A66;
+}
+
+  #Projects .well{
+    min-height: 350px;
+    overflow: hidden;
+  }
+
+  #Projects .minesweeper .well{
+    background-color: #5cb85c; /*bg-success*/
+    border: none;
+  }
+
+   #Projects .showweathernow .well{
+    background-color: #f0ad4e; /*bg-warning*/
+    border: none;
+  }
+
+   #Projects .spiedpcgame .well{
+    background-color: #d9534f; /*bg-danger*/
+    border: none;
+  }
+
+  #Projects .project-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 10;
+  }
+
+  #Projects .tags{
+    text-align: center;
+  }
+
+#Projects .tag{
+    border:solid 1px grey;
+  }
+
+#Projects .project-description{
+  padding-top: 20px;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  color:black;
+}
+
+#Projects .well{
+  position: relative;
+  text-align: center;
+}
+
+#Projects .bottom-section {
+  position: absolute;
+  bottom: 10px;
+    display: inline-block;
+}
+
+#Projects .bottom-section .btn{
+  border: 1px solid grey;
+}
 
 a,
 a:hover,
@@ -68,7 +133,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 section#Home{
@@ -127,7 +192,7 @@ section#Projects {
   color: #fff;
   background: #272727;
   border-top: solid;
-    border-color: #AA9A66;
+  border-color: #AA9A66;
 }
 
 @media only screen and (max-width: 700px) {
@@ -171,32 +236,6 @@ section#Contact {
     border-color: #AA9A66;
 }
   }
-
-
-#Projects .container-fluid{
-  margin-left: -20px;
-  padding-left: 0px;
-}
-
-#Projects .jumbotron
-{
-  margin-top: 10px;
-}
-
-#Projects .jumbotron
-{
-  color: black;
-}
-
-#Projects ul li
-{
-  margin-top: 20px;
-}
-
-#Projects ul
-{
-   list-style-type: none;
-}
 
 
 #Contact .social img{
