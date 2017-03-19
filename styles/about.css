@@ -1,0 +1,9 @@
+section#About {
+  height:100vh;
+  color: #fff;
+  background: #F9F4ED;
+}
+
+.about-content{
+	  margin-top: 30px;
+}

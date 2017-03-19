@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html ng-app>
 <head>
-
-	<!--Useful links
-	http://themeisle.com/demo/?theme=Zerif%20Pro&ref=5257
-	http://demo.wpzoom.com/?theme=inspiro
-	https://www.pexels.com/search/workspace
-	https://www.pexels.com/photo/laptop-macbook-pro-office-computer-18104/
-	-->
-
 	<!-- Meta Data -->
 	<title>Karthik's Website</title>
 	<meta charset="utf-8" />
@@ -27,16 +19,16 @@
 	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 
-
-
-
-    <!-- <link rel="icon" type="image/png" href="img/favicon/favicon_preferred.ico" sizes="16x16">-->
-
 	<!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Dosis|Nunito" rel="stylesheet">
 
     <!--custom style sheet-->
-	<link href="index.css" rel="stylesheet">
+	<link href="styles/index.css" rel="stylesheet">
+	<link href="styles/home.css" rel="stylesheet">
+	<link href="styles/projects.css" rel="stylesheet">
+	<link href="styles/blog.css" rel="stylesheet">
+	<link href="styles/about.css" rel="stylesheet">
+	<link href="styles/contact.css" rel="stylesheet">
 
 	<!--Font awesome-->
 	<script src="https://use.fontawesome.com/0a7af6ef97.js"></script>
@@ -67,13 +59,14 @@
 </div>
 </nav>
  <section id="Home">
- <div class="container-fluid" id="aboutMeDiv">
+ <div class="container-fluid content">
+ <h2>Success is how well do you do what you do when nobody else is looking.</h2>
  </div>
 </section>
 
 <section id="Projects">
-	<div class="container-fluid">
-		<h2 class="headText text-capitalize">Projects</h2>
+	<div class="container-fluid project-content">
+		<h1 class="headText">Projects</h1>
 		<div class="row">
 			<div class="col-md-4 project minesweeper">
 				<div class="well">
@@ -182,10 +175,13 @@
 	</div>
 </section>
 <section id="About">
-	<h2 class="headText text-capitalize">About Me</h2>
+<div class="container-fluid about-content">
+		<h1 class="headText">About Me</h1>
+</div>
 </section>
 <section id="Contact">
-	<h2 class="headText text-capitalize">My Contact</h2>
+<div class="container-fluid contact-content">
+	<h1 class="headText">Contact</h1>
 	<div class="container-fluid " style="text-align: center">
 	    	<div class="qrCode">
 				<img src="img/qrcode.png" class="img-rounded" alt="QR Code thumbnail">
@@ -201,6 +197,7 @@
 			      </div>
 			</div>
 	</div>
+ </div>
 </section>
 
     	<script src="bootstrap/js/jquery-2.2.2.min.js"></script>

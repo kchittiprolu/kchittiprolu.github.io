@@ -1,0 +1,17 @@
+section#Home{
+	height:100vh;
+  background-color: #F9F4ED;
+	/*background: url("./img/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  color: #444;
+}
+
+.content{
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+  text-align: center;
+  font-family: 'bitter',georgia,serif;
+  font-size: 1.25em;
+}
