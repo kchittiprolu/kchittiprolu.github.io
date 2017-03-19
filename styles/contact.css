@@ -13,9 +13,12 @@ section#Contact {
   padding-top:20px;
 }
 
+#Contact .social{
+	margin-top:20px;
+}
+
 #Contact .social img{
 	 opacity: 0.75;
-	margin-top: 20px;
 	height: 40px;
 	width: 40px;
 }
