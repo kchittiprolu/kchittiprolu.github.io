@@ -1,8 +1,7 @@
-body
-{
-	overflow-x: hidden;
-  font-family: 'Nunito', sans-serif;
-  font-size: 14px;
+body {
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
 }
 
 p {
@@ -13,16 +12,16 @@ p.small {
     font-size: 16px;
 }
 
-  .headText{
+.headText {
     color: #c66;
     text-align: center;
     margin: 20px 0px;
-    font-family: 'dosis',sans-serif;
+    font-family: 'dosis', sans-serif;
     letter-spacing: 0.1em;
     font-weight: 700;
     text-transform: uppercase;
     word-wrap: break-word;
-  }
+}
 
 a,
 a:hover,
@@ -33,32 +32,40 @@ a.active {
     color: #18bc9c;
 }
 
-.navbar-brand{
-  color: #AA9A66 !important;
-  padding-top: 8px;
+.navbar-brand {
+    color: #AA9A66 !important;
+    padding-top: 8px;
 }
 
-.navbar-brand .label{
-  margin-top: 0;
+.navbar-brand .label {
+    margin-top: 0;
 }
 
-.navbar-brand:hover{
-filter:alpha(opacity=100);
-opacity:1;
+.navbar-brand:hover {
+    filter: alpha(opacity=100);
+    opacity: 1;
 }
 
-
-.collapse .navbar-collapse a:hover, a:focus,a:active,a.active{
-  color: orange;
+.collapse .navbar-collapse a:hover,
+a:focus,
+a:active,
+a.active {
+    color: orange;
 }
 
-.navbar-collapse .ul .li .a{
-  text-align: center;
+.navbar-collapse .ul .li .a {
+    text-align: center;
 }
 
-.nav>li>a{
-  text-align: -webkit-center;
-  font-size: 20px;
+.nav>li>a {
+    text-align: -webkit-center;
+    font-size: 20px;
 }
 
-
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #d65454;
+    font-weight: 500;
+    background-color: transparent;
+}
