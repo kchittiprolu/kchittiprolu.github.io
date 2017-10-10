@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html ng-app>
+
 <head>
-	<!-- Meta Data -->
-	<title>Karthik's Website</title>
-	<meta charset="utf-8" />
+    <!-- Meta Data -->
+    <title>Karthik's Website</title>
+    <meta charset="utf-8" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,141 +13,149 @@
 
     <!-- favicons for different device sizes -->
 
-	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="favicons/manifest.json">
-	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
 
-	<!-- Fonts -->
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Bitter|Dosis|Nunito" rel="stylesheet">
 
     <!--custom style sheet-->
     <link href="styles/hover-min.css" rel="stylesheet" type="text/css">
-	<link href="styles/index.css" rel="stylesheet">
-	<link href="styles/home.css" rel="stylesheet">
-	<link href="styles/projects.css" rel="stylesheet">
-	<link href="styles/blog.css" rel="stylesheet">
-	<link href="styles/about.css" rel="stylesheet">
-	<link href="styles/contact.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
+    <link href="styles/home.css" rel="stylesheet">
+    <link href="styles/projects.css" rel="stylesheet">
+    <link href="styles/blog.css" rel="stylesheet">
+    <link href="styles/about.css" rel="stylesheet">
+    <link href="styles/contact.css" rel="stylesheet">
 
-	<!--Font awesome-->
-	<script src="https://use.fontawesome.com/0a7af6ef97.js"></script>
+    <!--Font awesome-->
+    <script src="https://use.fontawesome.com/0a7af6ef97.js"></script>
 
-	<!--AngularJS-->
-	 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <!--AngularJS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 
 </head>
+
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-<div class="container-fluid">
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand hvr-grow" href="#Home"><img src="favicons/apple-touch-icon.png" class="img-rounded" width="35" height="35"></a>
-	</div>
-	<div class="navbar-collapse collapse">
-	<ul class="nav navbar-nav navbar-right">
-		<li class="hvr-fade"><a href="#Home">Home</a></li>
-		<li class="hvr-fade"><a href="#Projects">Projects</a></li>
-		<li class="hvr-fade"><a href="#Contact">Contact</a></li>
-	</ul>
-</div>
-</div>
-</nav>
- <section id="Home">
- <div class="container-fluid content">
- <h2>Success is how well do you do what you do when nobody else is looking.</h2>
- </div>
-</section>
-<section id="Projects">
-	<div class="container-fluid project-content">
-		<h1 class="headText">Projects</h1>
-		<div class="row">
-			<div class="col-md-4 project minesweeper">
-				<div class="well hvr-grow-shadow">
-	               <h4 class="project-title">Minesweeper <span><i class="fa fa-gamepad fa-lg"></i></span></h4>
-	               <div class="tags">
-		               <label class="label tag">.NET</label>
-				   	   <label class="label tag">C#</label>
-				   	   <label class="label tag">TDD</label>
-			   	   </div>
-			   	   <div class="project-description">Minesweeper is a windows game developed using C#.NET. This is a purely Test Driven Devloped application. NUnit framework has been used a Unit testing framework. Ncover has been used in this project to track test coverage.
-			   	   </div>
-			   	   <div class="bottom-section">
-				   	   	<div class="btn">Read More</div>
-				   	   	<div class="btn">View Code</div>
-			   	   </div>
-	            </div>
-			</div>
-			<div class="col-md-4 project showweathernow">
-				<div class="well hvr-grow-shadow">
-	               <h4 class="project-title">Weather App <span><i class="fa fa-mobile fa-lg"></i></span></h4>
-	               <div class="tags">
-			            <label class="label tag">jQuery Mobile</label>
-					   	<label class="label tag">HTML5</label>
-					   	<label class="label tag">CSS3</label>
-					   	<label class="label tag">PhoneGap</label>
-			   	   </div>
-			   	    <div class="project-description">ShowWeatherNow App is a cross-platform hybrid app developed taking advantage of jQuery Mobile framework. This app has been converted to a native android app using Adobe's Phonegap. ShowWeatherNow app comes with features like current location, current temperature, hourly weather for next 24 hours, settings that include fahrenheit to celcius and vice versa.
-			   	    </div>
-			   	     <div class="bottom-section">
-				   	   	<div class="btn">Read More</div>
-				   	   	<div class="btn">View Code</div>
-			   	   </div>
-	            </div>
-	            </div>
-			<div class="col-md-4 project spiedpcgame">
-				<div class="well hvr-grow-shadow">
-	               <h4 class="project-title">Spied PC Game <span><i class="fa fa-gamepad fa-lg"></i></span></h4>
-	               <div class="tags">
-		               	<label class="label tag">.NET</label>
-					   	<label class="label tag">C#</label>
-					   	<label class="label tag">XNA Framework</label>
-					   	<label class="label tag">Photoshop</label>
-			   	   </div>
-			   	    <div class="project-description">Spied is a 2d PC game developed using Microsoft's XNA framwork. All pictures are designed in Adobe's photoshop and motionized using with C# written program using XNA. This game has been developed with features like powerups, collision detection, time tracking, 3 levels with increasing difficulty and the most challenging enemy at the end of 3rd level.
-			   	    </div>
-			   	     <div class="bottom-section">
-				   	   	<div class="btn">Read More</div>
-				   	   	<div class="btn">View Code</div>
-			   	   </div>
-	            </div>
-	        </div>
-		</div>
-	</div>
-</section>
-<section id="Contact">
-<div class="container-fluid contact-content">
-<div class="row">
-	<h1 class="headText">Contact</h1>
-	<div class="container-fluid " style="text-align: center">
-	<div class="row">
-	    	<div class="qrCode center">
-				<img src="img/qrcode.png" class="img-rounded" alt="QR Code thumbnail">
-			</div>
-			<div class="contactDiv">
-			      <p>Karthik Chittiprolu <br/>
-			      United States<br/></p>
-			      <a href="mailto:kchittiprolu@gmail.com" target="_top">kchittiprolu@gmail.com</a>
-			      <div class="social">
-			      	<a href="https://www.linkedin.com/in/kchittiprolu" class="hvr-glow" target="_blank"><img src="img/linkedIn_logo.png" class="img-rounded" alt="linkedin link"></a>
-			      	<a href="https://github.com/kchittiprolu" class="hvr-glow" target="_blank"><img src ="img/github_logo.png" class="img-rounded" alt="github link"></a>
-			      	<a href="https://bitbucket.org/chkarthik502" class="hvr-glow" target="_blank"><img src ="img/bitbucket_logo.png" class="img-rounded" alt="bitbucket link"></a>
-			      </div>
-			</div>
-		</div>
-	</div>
-   </div>
- </div>
-</section>
+                <!-- <a class="navbar-brand hvr-grow" href="#Home"><img src="favicons/apple-touch-icon.png" class="img-rounded" width="35" height="35"></a> -->
+                <a class="navbar-logo hvr-grow" href="#Home">Karthik Chittiprolu</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-text"><a id="home" href="#Home">Home</a></li>
+                    <li class="nav-text"><a id="projects" href="#Projects">Projects</a></li>
+                    <!-- <li class="nav-text"><a href="#Blog">Blog</a></li>
+                    <li class="nav-text"><a href="#Testimonials">Testimonials</a></li> -->
+                    <li class="nav-text"><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="Home">
+        <div class="parallax" data-parallax="scroll" data-image-src="img/background-cover.jpg">
+            <div class="message">Hello World! I'm Karthik Chittiprolu</div>
+        </div>
+    </section>
+    <section id="Projects">
+        <div class="container-fluid project-content">
+            <h1 class="headText">Projects</h1>
+            <div class="row">
+                <div class="col-md-4 project minesweeper">
+                    <div class="well hvr-grow-shadow">
+                        <h4 class="project-title">Minesweeper <span><i class="fa fa-gamepad fa-lg"></i></span></h4>
+                        <div class="tags">
+                            <label class="label tag">.NET</label>
+                            <label class="label tag">C#</label>
+                            <label class="label tag">TDD</label>
+                        </div>
+                        <div class="project-description">Minesweeper is a windows game developed using C#.NET. This is a purely Test Driven Devloped application. NUnit framework has been used a Unit testing framework. Ncover has been used in this project to track test coverage.
+                        </div>
+                        <div class="bottom-section">
+                            <div class="btn">Read More</div>
+                            <div class="btn">View Code</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project showweathernow">
+                    <div class="well hvr-grow-shadow">
+                        <h4 class="project-title">Weather App <span><i class="fa fa-mobile fa-lg"></i></span></h4>
+                        <div class="tags">
+                            <label class="label tag">jQuery Mobile</label>
+                            <label class="label tag">HTML5</label>
+                            <label class="label tag">CSS3</label>
+                            <label class="label tag">PhoneGap</label>
+                        </div>
+                        <div class="project-description">ShowWeatherNow App is a cross-platform hybrid app developed taking advantage of jQuery Mobile framework. This app has been converted to a native android app using Adobe's Phonegap. ShowWeatherNow app comes with features like current
+                            location, current temperature, hourly weather for next 24 hours, settings that include fahrenheit to celcius and vice versa.
+                        </div>
+                        <div class="bottom-section">
+                            <div class="btn">Read More</div>
+                            <div class="btn">View Code</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project spiedpcgame">
+                    <div class="well hvr-grow-shadow">
+                        <h4 class="project-title">Spied PC Game <span><i class="fa fa-gamepad fa-lg"></i></span></h4>
+                        <div class="tags">
+                            <label class="label tag">.NET</label>
+                            <label class="label tag">C#</label>
+                            <label class="label tag">XNA Framework</label>
+                            <label class="label tag">Photoshop</label>
+                        </div>
+                        <div class="project-description">Spied is a 2d PC game developed using Microsoft's XNA framwork. All pictures are designed in Adobe's photoshop and motionized using with C# written program using XNA. This game has been developed with features like powerups, collision
+                            detection, time tracking, 3 levels with increasing difficulty and the most challenging enemy at the end of 3rd level.
+                        </div>
+                        <div class="bottom-section">
+                            <div class="btn">Read More</div>
+                            <div class="btn">View Code</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="container-fluid contact-content">
+            <div class="row">
+                <h1 class="headText">Contact</h1>
+                <div class="container-fluid " style="text-align: center">
+                    <div class="row">
+                        <div class="qrCode center">
+                            <img src="img/qrcode.png" class="img-rounded" alt="QR Code thumbnail">
+                        </div>
+                        <div class="contactDiv">
+                            <p>Karthik Chittiprolu <br/> United States<br/></p>
+                            <a href="mailto:kchittiprolu@gmail.com" target="_top">kchittiprolu@gmail.com</a>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/kchittiprolu" class="hvr-glow" target="_blank"><img src="img/linkedIn_logo.png" class="img-rounded" alt="linkedin link"></a>
+                                <a href="https://github.com/kchittiprolu" class="hvr-glow" target="_blank"><img src="img/github_logo.png" class="img-rounded" alt="github link"></a>
+                                <a href="https://bitbucket.org/chkarthik502" class="hvr-glow" target="_blank"><img src="img/bitbucket_logo.png" class="img-rounded" alt="bitbucket link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    	<script src="bootstrap/js/jquery-2.2.2.min.js"></script>
-    	<script src="bootstrap/js/bootstrap.min.js"></script>
-    	<script src="scripts/navBar.js " type="text/javascript"></script>
+    <script src="bootstrap/js/jquery-2.2.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/navshrink.js"></script>
+    <script src="scripts/navBar.js " type="text/javascript"></script>
+    <script src="scripts/parallax.min.js " type="text/javascript"></script>
 </body>
+
 </html>
