@@ -21,6 +21,10 @@ section#Home {
     z-index: 2;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
+    background-color: black;
+    opacity: 0.5;
+    min-height: 300px;
+    border-radius: 10px;
 }
 
 .content {
@@ -78,4 +82,20 @@ nav.shrink>li>a {
     color: white;
     font-size: 16px;
     /* padding-top: 30px; */
+}
+
+.col-lg-offset-right-3 {
+    margin-right: 25%;
+}
+
+.col-md-offset-right-3 {
+    margin-right: 25%;
+}
+
+.col-sm-offset-right-3 {
+    margin-right: 25%;
+}
+
+.col-xs-offset-right-3 {
+    margin-right: 25%;
 }
